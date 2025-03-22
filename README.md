@@ -1,3 +1,6 @@
+Arch Port
+Download the PKGBUILD and run makepkg -si to install.
+
 Tool to manage systemd-boot in a btrfs based, snapper managed system.
 Can install systemd-boot with shim as well as install kernels into
 the ESP. Allows to interactively explore kernels, snapshots and boot
