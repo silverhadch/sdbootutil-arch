@@ -47,5 +47,10 @@ package() {
     # Install tmpfiles configuration
     install -Dm644 "kernel-install-sdbootutil.conf" "$pkgdir/usr/lib/tmpfiles.d/kernel-install-sdbootutil.conf"
 
+    # Install the entry-token file
+    install -Dm644 "entry-token" "$pkgdir/etc/kernel/entry-token"
+    
+    # Install the environment configuration file
+    install -Dm644 "sdbootutil.conf" "$pkgdir/etc/environment.d/sdbootutil.conf"
 
 }
